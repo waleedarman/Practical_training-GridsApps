@@ -1,0 +1,14 @@
+{
+  "name": "ass3",
+  "version": "1.0.0",
+  "description": "this is a assigment tailiwnd",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/style/style.css -o ./src/style/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

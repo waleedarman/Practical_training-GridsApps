@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Spark</title>
+    <link rel="stylesheet" href="./style/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body class="bg-white text-gray-800">
+
+    <nav class="bg-gray-900 text-white shadow-sm py-2 text-sm">
+      <div class="container mx-auto flex items-center justify-between px-4">
+        <a href="#" class="flex items-center">
+          <img src="./images/SiteSpark.png" alt="Logo" class="h-10 mr-2" />
+          <span class="font-bold text-lg">SiteSpark</span>
+        </a>
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="./index.html" class="hover:text-yellow-400 font-semibold">Home</a>
+          <a href="./Pages/About.html" class="hover:text-yellow-400 font-semibold">About Us</a>
+          <a href="./Pages/Portfolio.html" class="hover:text-yellow-400 font-semibold">Portfolio</a>
+          <a href="./Pages/Service.html" class="hover:text-yellow-400 font-semibold">Service</a>
+          <a href="./Pages/Contact.html" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 font-semibold">Contact Us</a>
+        </div>
+        <button class="md:hidden" onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">
+          <i class="fa-solid fa-bars text-white text-xl"></i>
+        </button>
+      </div>
+
+      <div id="mobileMenu" class="hidden md:hidden px-4 pb-4 bg-gray-900 flex flex-col space-y-2">
+        <a href="./index.html" class="hover:text-yellow-400 font-semibold block">Home</a>
+        <a href="./Pages/About.html" class="hover:text-yellow-400 font-semibold block">About Us</a>
+        <a href="./Pages/Portfolio.html" class="hover:text-yellow-400 font-semibold block">Portfolio</a>
+        <a href="/src/Pages/Service.html" class="hover:text-yellow-400 font-semibold block">Service</a>
+        <a href="./Pages/contact.html" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 font-semibold block text-center">Contact Us</a>
+      </div>
+    </nav>
+
+    <section class="relative bg-center bg-cover h-[650px] flex items-center justify-center text-center px-4" style="background-image: url('./images/office2.jpg');">
+      <div class="absolute inset-0 bg-black bg-opacity-65"></div>
+      <div class="relative text-white">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-relaxed">Build Your Vision. Launch<br>Your Website. Fast.</h1>
+        <p class="text-lg mb-6">SiteSpark empowers creators and businesses to design stunning, functional websites with ease. No coding required.</p>
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded transition">Get Started Now</button>
+      </div>
+    </section>
+
+    <section class="bg-gray-100 py-16 px-4 text-center">
+      <h2 class="text-3xl font-bold mb-12">Powerful Features, Designed for You</h2>
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <img src="./images/Selection.jpg" alt="Drag and Drop" class="w-12 h-12 mx-auto mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Intuitive Drag & Drop</h3>
+          <p class="text-sm text-gray-600">Easily arrange elements with a visual editor. No coding knowledge needed, just pure creativity.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <img src="./images/Selection (1).jpg" alt="Responsive Design" class="w-12 h-12 mx-auto mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Fully Responsive Design</h3>
+          <p class="text-sm text-gray-600">Your website will look flawless on any device, from desktops to tablets and smartphones.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <img src="./images/Selection (2).jpg" alt="SEO Optimization" class="w-12 h-12 mx-auto mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Built-in SEO Optimization</h3>
+          <p class="text-sm text-gray-600">Improve your search engine ranking with integrated tools that make your site discoverable.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <img src="./images/Selection (3).jpg" alt="Custom Domain" class="w-12 h-12 mx-auto mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Custom Domain Support</h3>
+          <p class="text-sm text-gray-600">Connect your own domain name to establish a professional and memorable online identity.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <img src="./images/Selection (4).jpg" alt="Analytics" class="w-12 h-12 mx-auto mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Integrated Analytics</h3>
+          <p class="text-sm text-gray-600">Track your website’s performance with simple, powerful analytics to understand your audience.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <img src="./images/Selection (5).jpg" alt="24/7 Support" class="w-12 h-12 mx-auto mb-4" />
+          <h3 class="text-lg font-semibold mb-2">Dedicated 24/7 Support</h3>
+          <p class="text-sm text-gray-600">Our expert team is always ready to assist you, ensuring a smooth building experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 px-4 text-center">
+      <h2 class="text-3xl font-bold mb-12">How SiteSpark Works</h2>
+      <div class="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="relative inline-block mb-4">
+            <span class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">1</span>
+            <img src="./images/Selection (6).jpg" alt="Choose Template" class="w-12 h-12 mx-auto mt-2" />
+          </div>
+          <h3 class="text-lg font-semibold mb-2">Choose Your Template</h3>
+          <p class="text-sm text-gray-600">Start with a professionally designed template tailored for various industries and styles.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="relative inline-block mb-4">
+            <span class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">2</span>
+            <img src="./images/Selection (9).jpg" alt="Customize Design" class="w-12 h-12 mx-auto mt-2" />
+          </div>
+          <h3 class="text-lg font-semibold mb-2">Customize & Design</h3>
+          <p class="text-sm text-gray-600">Drag and drop elements, change colors, fonts, and images to match your unique brand.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <div class="relative inline-block mb-4">
+            <span class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold">3</span>
+            <img src="./images/Selection (8).jpg" alt="Publish" class="w-12 h-12 mx-auto mt-2" />
+          </div>
+          <h3 class="text-lg font-semibold mb-2">Publish & Grow</h3>
+          <p class="text-sm text-gray-600">Launch your stunning website to the world and start growing your online presence.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 px-4 text-center bg-gray-50">
+      <h2 class="text-3xl font-bold mb-12">What Our Customers Say</h2>
+      <div class="flex flex-wrap justify-center gap-8 max-w-5xl mx-auto">
+        <div class="bg-white border-2 border-blue-600 rounded-lg p-6 w-full md:w-80 shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <p class="italic mb-4">"SiteSpark transformed our online presence. It's incredibly intuitive and powerful, allowing us to focus on our business, not coding headaches."</p>
+          <h4 class="font-bold text-blue-600 mb-1">Jane Doe</h4>
+          <span class="text-sm text-gray-600">CEO, InnovateCorp</span>
+        </div>
+        <div class="bg-white border-2 border-blue-600 rounded-lg p-6 w-full md:w-80 shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <p class="italic mb-4">"I launched my small business website in a weekend. The drag-and-drop interface is a dream, and the support team is absolutely fantastic!"</p>
+          <h4 class="font-bold text-blue-600 mb-1">John Smith</h4>
+          <span class="text-sm text-gray-600">Founder, Artisan Crafts</span>
+        </div>
+        <div class="bg-white border-2 border-blue-600 rounded-lg p-6 w-full md:w-80 shadow hover:-translate-y-1 hover:shadow-lg transition">
+          <p class="italic mb-4">"Finally, a website builder that doesn't compromise on design or functionality. My site looks professional and performs exceptionally well across all devices. Highly recommend!"</p>
+          <h4 class="font-bold text-blue-600 mb-1">Emily Chen</h4>
+          <span class="text-sm text-gray-600">Marketing Director, GlobalTech</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-200 py-10">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center mb-4">
+            <img src="./images/SiteSpark.png" alt="Logo" class="w-10 h-10 mr-2" />
+            <span class="font-bold text-lg">SiteSpark</span>
+          </div>
+          <p>Building the future with creative solutions and modern web technology.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-yellow-500">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="/src/index.html" class="hover:text-yellow-400">Home</a></li>
+            <li><a href="./Pages/About.html" class="hover:text-yellow-400">About Us</a></li>
+            <li><a href="./Pages/Service.html" class="hover:text-yellow-400">Service</a></li>
+            <li><a href="./Pages/Contact.html" class="hover:text-yellow-400">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-yellow-500">Get in Touch</h4>
+          <ul class="space-y-2 text-sm">
+            <li><i class="fa-solid fa-location-dot mr-2 text-yellow-500"></i> Rafidia, Opposite Rafidia Hospital, Nablus, Palestine</li>
+            <li><i class="fa-solid fa-envelope mr-2 text-yellow-500"></i> info@SiteSpark.com</li>
+            <li><i class="fa-solid fa-phone mr-2 text-yellow-500"></i> +972 569 287 748</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-yellow-500">Follow Us</h4>
+          <div class="flex space-x-4 text-lg">
+            <a href="#"><i class="fa-brands fa-facebook-f hover:text-yellow-400"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram hover:text-yellow-400"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter hover:text-yellow-400"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in hover:text-yellow-400"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-8 text-sm">
+        © 2025 SiteSpark. All Rights Reserved.
+      </div>
+    </footer>
+
+  </body>
+</html>

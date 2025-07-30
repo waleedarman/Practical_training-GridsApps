@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Spark</title>
+  <link rel="stylesheet" href="../style/output.css" /> 
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body class="font-sans">
+
+<nav class="bg-gray-900 text-white shadow-sm py-2 text-sm">
+  <div class="container mx-auto flex items-center justify-between px-4">
+    <a href="#" class="flex items-center">
+      <img src="../images/SiteSpark.png" alt="Logo" class="h-10 mr-2" />
+      <span class="font-bold text-lg">SiteSpark</span>
+    </a>
+    <div class="hidden md:flex items-center space-x-4">
+      <a href="/src/index.html" class="hover:text-yellow-400 font-semibold">Home</a>
+      <a href="./About.html" class="hover:text-yellow-400 font-semibold">About Us</a>
+      <a href="./Portfolio.html" class="hover:text-yellow-400 font-semibold">Portfolio</a>
+      <a href="./Service.html" class="hover:text-yellow-400 font-semibold">Service</a>
+      <a href="./Contact.html" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 font-semibold">Contact Us</a>
+    </div>
+    <button class="md:hidden" onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">
+      <i class="fa-solid fa-bars text-white text-xl"></i>
+    </button>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden px-4 pb-4 bg-gray-900 flex flex-col space-y-2">
+    <a href="/src/index.html" class="hover:text-yellow-400 font-semibold">Home</a>
+    <a href="./About.html" class="hover:text-yellow-400 font-semibold">About Us</a>
+    <a href="./Portfolio.html" class="hover:text-yellow-400 font-semibold">Portfolio</a>
+    <a href="./Service.html" class="hover:text-yellow-400 font-semibold">Service</a>
+    <a href="./Contact.html" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 font-semibold">Contact Us</a>
+  </div>
+</nav>
+
+<section class="py-10 bg-gray-100">
+  <div class="container mx-auto px-4">
+    <div class="flex justify-center">
+      <div class="w-full max-w-6xl">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-white shadow p-6 rounded-3xl">
+          <div>
+            <h2 class="text-2xl font-bold mb-2">Say Hello</h2>
+            <p class="text-gray-500 mb-6">Lorem Ipsum is simply dummy text of the printing.</p>
+
+            <form>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div>
+                  <label for="fullname" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                  <input type="text" id="fullname" placeholder="Full Name" required class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                  <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Company Name</label>
+                  <input type="text" id="company" placeholder="Company Name" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                <input type="email" id="email" placeholder="Email Address" required class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              </div>
+
+              <div class="mb-4">
+                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+                <input type="tel" id="phone" placeholder="Phone" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              </div>
+
+              <div class="mb-4">
+                <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                <input type="text" id="subject" placeholder="Subject" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              </div>
+
+              <div class="mb-6">
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea id="message" rows="4" placeholder="Your message here..." class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+              </div>
+
+              <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg transition">Send Message</button>
+            </form>
+          </div>
+
+          <div>
+            <div class="w-full h-full min-h-[400px] overflow-hidden rounded-2xl shadow-lg">
+              <iframe class="w-full h-full rounded-2xl border-0"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d76904.00134028288!2d35.216361076224715!3d32.21880417047207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2s!4v1752332128374!5m2!1sar!2s"
+                loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-gray-800 text-gray-200 py-10">
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div>
+      <div class="flex items-center mb-4">
+        <img src="../images/SiteSpark.png" alt="Logo" class="w-10 h-10 mr-2" />
+        <span class="font-bold text-lg">SiteSpark</span>
+      </div>
+      <p>Building the future with creative solutions and modern web technology.</p>
+    </div>
+    <div>
+      <h4 class="font-semibold mb-4 text-yellow-500">Quick Links</h4>
+      <ul class="space-y-2">
+        <li><a href="/src/index.html" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="../Pages/About.html" class="hover:text-yellow-400">About Us</a></li>
+        <li><a href="../Pages/Service.html" class="hover:text-yellow-400">Service</a></li>
+        <li><a href="../Pages/Contact.html" class="hover:text-yellow-400">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold mb-4 text-yellow-500">Get in Touch</h4>
+      <ul class="space-y-2 text-sm">
+        <li><i class="fa-solid fa-location-dot mr-2 text-yellow-500"></i> Rafidia, Opposite Rafidia Hospital, Nablus, Palestine</li>
+        <li><i class="fa-solid fa-envelope mr-2 text-yellow-500"></i> info@SiteSpark.com</li>
+        <li><i class="fa-solid fa-phone mr-2 text-yellow-500"></i> +972 569 287 748</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold mb-4 text-yellow-500">Follow Us</h4>
+      <div class="flex space-x-4 text-lg">
+        <a href="#"><i class="fa-brands fa-facebook-f hover:text-yellow-400"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram hover:text-yellow-400"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter hover:text-yellow-400"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in hover:text-yellow-400"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-8 text-sm">
+    © 2025 SiteSpark. All Rights Reserved.
+  </div>
+</footer>
+
+</body>
+</html>
