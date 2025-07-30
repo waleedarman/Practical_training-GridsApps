@@ -1,0 +1,117 @@
+.packages-section {
+  background-color:  rgba(0, 0, 0, 0.65); 
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.packages-content h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.packages-content p {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.packages-list-section {
+  padding: 60px 30px;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.packages-header h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.packages-header p {
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.package-card {
+  width: 100%;
+  max-width: 260px;
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e4e4e4;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.package-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.package-card input[type="radio"] {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.package-card h3 {
+  color: #007bff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.package-card .price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.package-card .discount {
+  font-size: 0.85rem;
+  color: #ff4d4f;
+  margin-bottom: 5px;
+}
+
+.package-card .duration {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+@media (max-width: 992px) {
+  .packages-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .packages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .package-card {
+    max-width: 90%;
+  }
+}
