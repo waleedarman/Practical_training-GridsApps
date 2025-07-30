@@ -1,0 +1,89 @@
+.header-slide-1,.header-slide-2,.header-slide-3 {
+  height: 650px;
+  position: relative;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-slide-1 {
+  background-image: url('../images/office2.jpg');
+}
+
+.header-slide-2 {
+  background-image: url('../images/Companies1.jpeg');
+}
+
+.header-slide-3 {
+  background-image: url('../images/arteil.jpg');
+}
+
+.header-slide-1::before,.header-slide-2::before,.header-slide-3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.step-icon {
+  position: relative;
+  display: inline-block;
+  font-size: 2.5rem;
+  color: #e83e8c;
+}
+
+.step-icon i {
+  display: block;
+}
+
+.step-number {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4f46e5;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card {
+  transition: all 0.3s ease;
+  border-radius: 0.75rem;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.testimonial-card {
+  transition: all 0.3s ease;
+  border-radius: 0.75rem;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.quote-icon {
+  font-size: 2rem;
+  color: #0d6efd;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
