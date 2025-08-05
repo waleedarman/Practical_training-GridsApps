@@ -29,21 +29,18 @@ const person1 = new Person("Amr", 20);
 
 // 7. Inheritance in JavaScript
 class Vehicle {
-constructor(make, model)
-{
+constructor(make, model){
 this.make = make;
 this.model = model;
 }
 
-drive()
-{
+drive(){
 console.log("Driving...");
 }
 }
 
 class Car extends Vehicle {
-honk()
-{
+honk(){
 console.log("Honk!");
 }
 
