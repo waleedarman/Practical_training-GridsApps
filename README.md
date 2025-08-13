@@ -8,17 +8,17 @@ The challenges are based on the *"Master JavaScript Workshop"* exercise set.
 
 ## 📂 Project Structure
 ```
-
-
 JSMASTER-FINAL/
-└── challenge83/
-    ├── app.html
-    ├── file1.js
-    ├── file2.js
+├── challenge83/
+│   ├── app.html
+│   ├── file1.js
+│   ├── file2.js
+│   ├── app.js
+│   ├── Here are 100 JavaScript.pdf
+│   └── index.html
+```
 
-    ├── app.js
-    ├── Here are 100 JavaScript.pdf
-    └── index.html
+---
 
 ## 📂 math/
 ```
@@ -51,7 +51,10 @@ JSMASTER-FINAL/
 32  Find ASCII Value of Character
 98  Check if a Number is Float or Integer
 ```
-##  📂 strings/
+
+---
+
+## 📂 strings/
 ```
 33  Check Whether a String is Palindrome
 34  Sort Words in Alphabetical Order
@@ -73,7 +76,9 @@ JSMASTER-FINAL/
 60  Replace All Line Breaks with `<br>`
 ```
 
-##  📂 arrays/
+---
+
+## 📂 arrays/
 ```
 67  Remove Specific Item from an Array
 68  Check if an Array Contains a Specified Value
@@ -93,7 +98,9 @@ JSMASTER-FINAL/
 82  Split Array into Smaller Chunks
 ```
 
-##  📂 objects/
+---
+
+## 📂 objects/
 ```
 37  Create Objects in Different Ways
 41  Remove a Property from an Object
@@ -105,7 +112,9 @@ JSMASTER-FINAL/
 48  Add Key/Value Pair to an Object
 ```
 
-##  📂 dates/
+---
+
+## 📂 dates/
 ```
 61  Display Date and Time
 62  Check Leap Year
@@ -115,7 +124,9 @@ JSMASTER-FINAL/
 66  Create a Countdown Timer
 ```
 
-##  📂 games-random/
+---
+
+## 📂 games-random/
 ```
 09  Generate a Random Number
 27  Guess a Random Number
@@ -126,7 +137,9 @@ JSMASTER-FINAL/
 94  Generate a Range of Numbers and Characters
 ```
 
-##  📂 advanced/
+---
+
+## 📂 advanced/
 ```
 83  Include a JS File in Another JS File
 84  Get File Extension
