@@ -1,0 +1,10 @@
+# Start Node REPL
+node
+
+# Inside REPL
+process.version
+# → 'v24.7.0'
+
+# Exit REPL
+.exit
+# (or Ctrl + C twice)

@@ -1,0 +1,7 @@
+GET /posts:
+  if (Redis.has("posts")):
+    return Redis.get("posts")   // cache hit
+  else:
+    data = DB.query("SELECT * FROM posts")
+    Redis.set("posts", data, TTL=60s)
+    return data
